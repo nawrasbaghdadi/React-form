@@ -2,3 +2,21 @@
   padding-left: 0;
   margin-bottom: 0;
 }
+.page-numbers{
+	 display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    list-style: none;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+            justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+.page-numbers li{
+	line-height: 30px;
+    margin: 0 10px;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+}

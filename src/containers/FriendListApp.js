@@ -9,7 +9,6 @@ class FriendListApp extends Component {
 
   render () {
     const { friendlist: { friendsById }} = this.props;
-
     const actions = {
       addFriend: this.props.addFriend,
       deleteFriend: this.props.deleteFriend,

@@ -4,3 +4,24 @@
   border-left: 0;
   border-right: 0;
 }
+.form-group{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+          flex-direction: row;
+}
+.error-msg{
+	color:red;
+	text-align: center;
+	display: none;
+}
+.notvalid .error-msg{
+	display: block;
+}
